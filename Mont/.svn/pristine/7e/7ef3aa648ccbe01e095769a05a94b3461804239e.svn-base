@@ -1,0 +1,257 @@
+import java.math.BigInteger;
+
+import org.apache.log4j.Logger;
+
+import util.BIUtil;
+import util.MontgomeryUtil;
+
+public class Montgomery {
+	
+	private static Logger log = Logger.getLogger(Montgomery.class);
+
+	// Funciona bien, no modificar
+	// Algoritmo de Walter Original
+	public BigInteger montWalter(BigInteger X, BigInteger Y, BigInteger M, int numBits, int k, BigInteger Mprima) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(k);
+		BigInteger qi = new BigInteger("0");
+		int n = numBits / k;
+
+		BigInteger X0 = BIUtil.getD(X, 0, k);
+		BigInteger A0, Yi, XY, qiM;
+
+		for (int i = 0; i < n; i++) {
+			A0 = BIUtil.getD(A, 0, k);
+			Yi = BIUtil.getD(Y, i, k);
+
+			qi = (A0.add(X0.multiply(Yi)).multiply(Mprima)).mod(B);
+
+			XY = X.multiply(Yi);
+			qiM = qi.multiply(M);
+			A = (A.add(XY).add(qiM)).divide(B);
+		}
+		return A;
+	}
+
+	// Funciona bien, no modificar diferente tama;os de digitos yk < xk
+	public BigInteger montWalterXkYk(BigInteger X, BigInteger Y, BigInteger M, int numBits, int yk, int xk, BigInteger Mprima) {
+
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");
+		int n = numBits / yk;
+
+		BigInteger X0 = BIUtil.getD(X, 0, xk);
+		BigInteger A0, Yi, XYi, qiM;
+
+		for (int i = 0; i < n; i++) {
+			A0 = BIUtil.getD(A, 0, xk);
+			Yi = BIUtil.getD(Y, i, yk);
+
+			qi = (A0.add(X0.multiply(Yi)).multiply(Mprima)).mod(B);
+
+			XYi = X.multiply(Yi);
+			qiM = qi.multiply(M);
+			A = (A.add(XYi).add(qiM)).divide(B);
+		}
+		return A;
+	}
+
+	// Creo que funciona bien, Montgomery original propuesto en el primer
+	// articulo
+	public BigInteger montCompact(BigInteger X, BigInteger Y, BigInteger M, int numBits, int k, BigInteger Mprima) {
+
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(k);
+		BigInteger qi = new BigInteger("0");
+		BigInteger c;
+
+		int index = 0;
+		int n = numBits / k;
+
+		for (int i = 0; i < n; i++) {
+			c = new BigInteger("0");
+			for (int j = 0; j < n; j++) {
+				BigInteger sj = BIUtil.getD(A, j, k).add(
+						BIUtil.getD(X, j, k).multiply(BIUtil.getD(Y, i, k)));
+				if (j == 0)
+					qi = BIUtil.getD(sj.multiply(Mprima), 0, k); // k-LSB
+
+				BigInteger rj = qi.multiply(BIUtil.getD(M, j, k));
+
+				BigInteger t6j = sj.add(rj.add(c)); // {c+1,t6j} = sj + rj + cj
+				c = t6j.shiftRight(k);
+
+				if (j > 0)
+					A = BIUtil.setD(A, j - 1, k, t6j);
+
+				// System.out.println("A -> " + A.toString(16));
+			}
+			A = BIUtil.setD(A, n - 1, k, c);
+
+			// System.out.println("End iteration A -> " + A.toString(16));
+		}
+		return A;
+	}
+
+	// Funciona bien distintos tamaños de digito xk > yk (no modificar)
+	public BigInteger montCompactXkYk(BigInteger X, BigInteger Y, BigInteger M, BigInteger Mprima, int numBits, int xk, int yk) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");
+		BigInteger c;
+
+		int yn = numBits / yk; // k1=16
+		int xn = numBits / xk; // k2=32
+
+		for (int i = 0; i < yn; i++) {
+			c = new BigInteger("0");
+			for (int j = 0; j < xn; j++) {
+
+				// Aj + xj * yi
+				BigInteger sj = BIUtil.getD(A, j, xk).add(
+						BIUtil.getD(X, j, xk).multiply(BIUtil.getD(Y, i, yk)));
+				if (j == 0) {					
+					qi = BIUtil.getD(sj.multiply(Mprima), 0, yk);
+					log.debug("qi -> " + qi.toString(16));
+				}
+
+				// qi x M
+				BigInteger rj = qi.multiply(BIUtil.getD(M, j, xk));
+
+				// sj + ri + c // C es elcarry anterior
+				BigInteger t6j = sj.add(rj.add(c)); // {c+1,t6j} = sj + rj + cj
+				c = t6j.shiftRight(xk);
+
+				A = BIUtil.setD(A, j, xk, t6j);
+				log.debug("A -> " + A.toString(16));				
+			}
+
+			A = A.shiftRight(yk);
+			A = BIUtil.setD(A, yn - 1, yk, c);
+
+			log.debug("A ext ----> " + A.toString(16));
+		}
+		return A;
+	}
+	
+	
+	//Creo que funciona bien para distintos tamaños de digitos y no necesariamente potencias de 2 yK <= xk
+	public BigInteger montCompactNoPow2(BigInteger X, BigInteger Y, BigInteger M, BigInteger Mprima, int numBits, int xk, int yk) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");
+		BigInteger c;		
+		
+		int yn = numBits/yk; // k1=16
+		int xn = (int)Math.ceil( (double)numBits/(double)xk ); // k2= ejemplo con 48
+		 
+		System.out.println("numBits/xn = " + numBits + "/" + xk);
+		System.out.println("xn -> " + xn);
+		
+		int ultimoPorRecorrer = (numBits - (numBits/xk) * xk);		
+		System.out.println("UltimoRecorrer -> " + ultimoPorRecorrer );
+		
+		BigInteger t6j = null;
+		
+		for(int i = 0; i < yn ; i++){
+			c = new BigInteger("0");			
+			for (int j = 0; j < xn; j++) {
+				
+				//Aj + xj * yi
+				BigInteger sj = BIUtil.getD(A, j, xk).add( BIUtil.getD(X, j, xk).multiply(BIUtil.getD(Y, i, yk) ));
+				if (j == 0){ 
+					qi = BIUtil.getD( sj.multiply(Mprima), 0 , yk );
+					System.out.println("qi -> " + qi.toString(16));
+				}
+				
+				//qi x M
+				BigInteger rj = qi.multiply(BIUtil.getD(M, j, xk));				
+
+				//sj + ri + c // C es elcarry anterior				
+				t6j = sj.add(rj.add(c));	// {c+1,t6j} = sj + rj + cj			
+				c = t6j.shiftRight(xk);				
+				
+				A = BIUtil.setD(A, j, xk, t6j);
+				
+				
+				System.out.println("A --------------------> " );
+				for (int k = 0; k < numBits/xk ; k++) {
+					System.out.println( BIUtil.getD(A, numBits/xk - k - 1, xk).toString(16) );
+				}
+			}			
+			
+			c = ultimoPorRecorrer == 0 ? t6j.shiftRight(xk) : t6j.shiftRight(ultimoPorRecorrer);
+			
+			A = A.shiftRight(yk);
+			A = BIUtil.setD(A, yn - 1, yk, c);
+			
+			System.out.println("Externo -> " + A.toString(16));
+		}
+		return A;
+	}	
+
+	//Exponenciacion montgomery powering Ladder, con uso de montWalter para hacer las multiplicaciones parciales
+	public BigInteger poweringLadder(BigInteger x , BigInteger exp, BigInteger p , int size , int k, BigInteger pPrima,BigInteger unoMont){		
+		BigInteger R0 = unoMont; // R0 = 1 ; R0 = uno en el dominio de montgomery		
+		BigInteger R1 = x;
+		
+		for(int i= exp.bitLength() - 1; i >= 0 ; --i){
+			if( exp.testBit(i) ){				
+				R0 = montWalter( R0 , R1 , p , size, k, pPrima); // R0.multiply(R1).mod(mod);
+				R1 = montWalter( R1 , R1 , p , size, k, pPrima); //R1.multiply(R1).mod(mod);
+			}else{				
+				R1 = montWalter( R0 , R1 , p , size, k, pPrima); //R0.multiply(R1).mod(mod);
+				R0 = montWalter( R0 , R0 , p , size, k, pPrima); //R0.multiply(R0).mod(mod);
+			}
+			log.info("R0 [" + i + "]->  RO * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R0.toString(16));
+			log.info("R1 [" + i + "]->  R1 * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R1.toString(16));
+			log.info("------------------------------------------------------");
+		}			
+		return R0;
+	}
+
+	//Idea, Pasar esto al TestNG, no deben ser parte de la clase Montgomery
+	//Exponenciacion modular completa
+	public BigInteger exponenciacionModular(BigInteger x, BigInteger exp , BigInteger p , int size , int k){
+		
+		BigInteger pPrima = MontgomeryUtil.calcularMprima(p, k);
+		
+		log.info("Exponenciacion montgomery");
+		log.info(" Valores de entrada-------------------------------------------------");
+		log.info("x   : " + x.toString(16));
+		log.info("exp : " + exp.toString(16));
+		log.info("p   : " + p.toString(16));
+		log.info(" -------------------------------------------------------------------");
+		
+		BigInteger R = new BigInteger("2").pow(2*size).mod(p);          //Calculamos R^2 mod p		
+		BigInteger unoMontg  = montWalter(BigInteger.ONE, R, p, size, k, pPrima); //Conversion de 1 y de X al dominio de montgomery
+		BigInteger xMontg    = montWalter(     x        , R, p, size, k, pPrima);
+		
+		log.info(" Valores calculados-------------------------------------------------");
+		log.info("R^2 mod p : " + R.toString(16));
+		log.info("unoMont   : " + unoMontg.toString(16));
+		log.info("xMont     : " + xMontg.toString(16));
+		log.info("pPrima    : " + pPrima.toString(16) );
+		log.info(" -------------------------------------------------------------------");
+		
+		BigInteger resultPrima =  poweringLadder(xMontg , exp, p, size, k, pPrima, unoMontg); //Exponenciacion en dominio de montgomery
+		BigInteger result = montWalter(resultPrima, BigInteger.ONE, p, size,k , pPrima); // Convertir el resultado al ldominio normal
+		
+		BigInteger javaResult;
+		log.info(" Resultados ----------------------------------------------------------");
+		log.info("dominio montg   : " + resultPrima.toString(16));
+		log.info("dominio normal  : " + result.toString(16));
+		log.info("java B.modPow() : " + (javaResult = x.modPow(exp, p)).toString(16));
+		
+		
+		if(!javaResult.equals(result)){
+			log.error("No hace match!!!" , new Exception("No hace Match el Exponenciador modular"));
+			System.exit(-1);			
+		}		
+		return result;
+	}	
+
+
+}
+

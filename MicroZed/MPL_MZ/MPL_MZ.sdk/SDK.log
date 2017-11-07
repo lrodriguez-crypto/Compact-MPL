@@ -1,0 +1,824 @@
+01:36:12 INFO  : Launching XSDB server: xsdb -n -interactive /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/temp_xsdb_launch_script.tcl
+01:36:17 INFO  : XSDB server has started successfully.
+01:36:25 INFO  : Processing command line option -hwspec /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf.
+01:40:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:40:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:40:39 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:44:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:44:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:44:55 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:45:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:45:05 INFO  : 'fpga -state' command is executed.
+01:45:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:45:05 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:45:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:45:06 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:45:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:45:06 INFO  : 'stop' command is executed.
+01:45:08 INFO  : 'ps7_init' command is executed.
+01:45:08 INFO  : 'ps7_post_config' command is executed.
+01:45:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:08 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:45:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:09 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:45:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:45:09 INFO  : Memory regions updated for context APU
+01:45:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:09 INFO  : 'con' command is executed.
+01:45:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+01:45:20 INFO  : Disconnected from the channel tcfchan#1.
+01:45:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:45:20 INFO  : 'fpga -state' command is executed.
+01:45:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:45:21 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:45:21 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:45:28 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:45:28 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:45:28 INFO  : 'stop' command is executed.
+01:45:29 INFO  : 'ps7_init' command is executed.
+01:45:29 INFO  : 'ps7_post_config' command is executed.
+01:45:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:30 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:45:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:30 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:45:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:45:30 INFO  : Memory regions updated for context APU
+01:45:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:45:31 INFO  : 'con' command is executed.
+01:45:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+01:46:10 INFO  : Disconnected from the channel tcfchan#2.
+01:46:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:46:11 INFO  : 'fpga -state' command is executed.
+01:46:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:46:12 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:46:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:46:19 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:46:20 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:46:20 INFO  : 'stop' command is executed.
+01:46:21 INFO  : 'ps7_init' command is executed.
+01:46:21 INFO  : 'ps7_post_config' command is executed.
+01:46:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:46:21 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:46:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:46:22 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:46:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:46:22 INFO  : Memory regions updated for context APU
+01:46:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:46:22 INFO  : 'con' command is executed.
+01:46:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+01:47:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:47:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:47:43 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:47:52 INFO  : Disconnected from the channel tcfchan#3.
+01:47:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:47:53 INFO  : 'fpga -state' command is executed.
+01:47:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:47:53 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:47:53 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:48:01 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:48:02 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:48:02 INFO  : 'stop' command is executed.
+01:48:03 INFO  : 'ps7_init' command is executed.
+01:48:03 INFO  : 'ps7_post_config' command is executed.
+01:48:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:48:03 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:48:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:48:04 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:48:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:48:04 INFO  : Memory regions updated for context APU
+01:48:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:48:04 INFO  : 'con' command is executed.
+01:48:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+01:49:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:49:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:49:41 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:49:58 INFO  : Disconnected from the channel tcfchan#4.
+01:49:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:49:58 INFO  : 'fpga -state' command is executed.
+01:49:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:49:59 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:49:59 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:50:07 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:50:08 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:50:08 INFO  : 'stop' command is executed.
+01:50:09 INFO  : 'ps7_init' command is executed.
+01:50:09 INFO  : 'ps7_post_config' command is executed.
+01:50:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:50:10 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:50:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:50:10 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:50:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:50:10 INFO  : Memory regions updated for context APU
+01:50:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:50:11 INFO  : 'con' command is executed.
+01:50:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+01:53:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:53:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:53:55 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:54:15 INFO  : Disconnected from the channel tcfchan#5.
+01:54:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+01:54:15 INFO  : 'fpga -state' command is executed.
+01:54:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:54:16 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+01:54:16 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:54:23 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+01:54:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+01:54:23 INFO  : 'stop' command is executed.
+01:54:24 INFO  : 'ps7_init' command is executed.
+01:54:25 INFO  : 'ps7_post_config' command is executed.
+01:54:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:54:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+01:54:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:54:26 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:54:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+01:54:26 INFO  : Memory regions updated for context APU
+01:54:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:54:26 INFO  : 'con' command is executed.
+01:54:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:04:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:04:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:04:16 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:04:23 INFO  : Disconnected from the channel tcfchan#6.
+02:04:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:04:24 INFO  : 'fpga -state' command is executed.
+02:04:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:04:24 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:04:24 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:04:31 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:04:32 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:04:32 INFO  : 'stop' command is executed.
+02:04:32 INFO  : 'ps7_init' command is executed.
+02:04:33 INFO  : 'ps7_post_config' command is executed.
+02:04:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:04:33 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:04:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:04:34 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:04:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:04:34 INFO  : Memory regions updated for context APU
+02:04:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:04:34 INFO  : 'con' command is executed.
+02:04:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:12:43 INFO  : Disconnected from the channel tcfchan#7.
+02:12:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:12:44 INFO  : 'fpga -state' command is executed.
+02:12:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:12:44 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:12:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:12:53 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:12:53 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:12:53 INFO  : 'stop' command is executed.
+02:12:54 INFO  : 'ps7_init' command is executed.
+02:12:54 INFO  : 'ps7_post_config' command is executed.
+02:12:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:12:55 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:12:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:12:55 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:12:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:12:55 INFO  : Memory regions updated for context APU
+02:12:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:12:55 INFO  : 'con' command is executed.
+02:12:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:14:04 INFO  : Disconnected from the channel tcfchan#8.
+02:14:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:14:04 INFO  : 'fpga -state' command is executed.
+02:14:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:14:04 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:14:05 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:14:12 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:14:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:14:13 INFO  : 'stop' command is executed.
+02:14:14 INFO  : 'ps7_init' command is executed.
+02:14:14 INFO  : 'ps7_post_config' command is executed.
+02:14:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:14:14 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:14:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:14:15 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:14:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:14:15 INFO  : Memory regions updated for context APU
+02:14:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:14:15 INFO  : 'con' command is executed.
+02:14:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:14:54 INFO  : Disconnected from the channel tcfchan#9.
+02:14:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:14:55 INFO  : 'fpga -state' command is executed.
+02:14:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:14:55 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:14:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:15:03 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:15:03 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:15:03 INFO  : 'stop' command is executed.
+02:15:04 INFO  : 'ps7_init' command is executed.
+02:15:04 INFO  : 'ps7_post_config' command is executed.
+02:15:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:15:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:15:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:15:05 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:15:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:15:05 INFO  : Memory regions updated for context APU
+02:15:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:15:06 INFO  : 'con' command is executed.
+02:15:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:16:18 INFO  : Disconnected from the channel tcfchan#10.
+02:16:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:16:18 INFO  : 'fpga -state' command is executed.
+02:16:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:16:19 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:16:19 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:16:27 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:16:27 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:16:27 INFO  : 'stop' command is executed.
+02:16:28 INFO  : 'ps7_init' command is executed.
+02:16:28 INFO  : 'ps7_post_config' command is executed.
+02:16:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:16:29 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:16:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:16:29 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:16:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:16:29 INFO  : Memory regions updated for context APU
+02:16:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:16:30 INFO  : 'con' command is executed.
+02:16:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:17:35 INFO  : Disconnected from the channel tcfchan#11.
+02:17:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:17:36 INFO  : 'fpga -state' command is executed.
+02:17:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:17:36 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:17:37 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:17:44 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:17:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:17:45 INFO  : 'stop' command is executed.
+02:17:46 INFO  : 'ps7_init' command is executed.
+02:17:46 INFO  : 'ps7_post_config' command is executed.
+02:17:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:17:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:17:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:17:47 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:17:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:17:47 INFO  : Memory regions updated for context APU
+02:17:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:17:48 INFO  : 'con' command is executed.
+02:17:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:19:22 INFO  : Disconnected from the channel tcfchan#12.
+02:19:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:19:23 INFO  : 'fpga -state' command is executed.
+02:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:19:23 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:19:24 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:19:31 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:19:32 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:19:32 INFO  : 'stop' command is executed.
+02:19:33 INFO  : 'ps7_init' command is executed.
+02:19:33 INFO  : 'ps7_post_config' command is executed.
+02:19:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:19:33 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:19:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:19:34 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:19:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:19:34 INFO  : Memory regions updated for context APU
+02:19:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:19:34 INFO  : 'con' command is executed.
+02:19:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:21:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:21:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:21:59 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:22:13 INFO  : Disconnected from the channel tcfchan#13.
+02:22:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:22:14 INFO  : 'fpga -state' command is executed.
+02:22:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:22:14 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:22:14 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:22:23 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:22:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:22:23 INFO  : 'stop' command is executed.
+02:22:25 INFO  : 'ps7_init' command is executed.
+02:22:25 INFO  : 'ps7_post_config' command is executed.
+02:22:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:22:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:22:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:22:26 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:22:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:22:26 INFO  : Memory regions updated for context APU
+02:22:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:22:26 INFO  : 'con' command is executed.
+02:22:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:23:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:23:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:23:21 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+02:23:29 INFO  : Disconnected from the channel tcfchan#14.
+02:23:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:23:29 INFO  : 'fpga -state' command is executed.
+02:23:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:23:30 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:23:30 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:23:39 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:23:39 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:23:39 INFO  : 'stop' command is executed.
+02:23:40 INFO  : 'ps7_init' command is executed.
+02:23:40 INFO  : 'ps7_post_config' command is executed.
+02:23:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:23:41 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:23:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:23:41 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:23:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:23:41 INFO  : Memory regions updated for context APU
+02:23:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:23:41 INFO  : 'con' command is executed.
+02:23:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:26:07 INFO  : Disconnected from the channel tcfchan#15.
+02:26:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+02:26:07 INFO  : 'fpga -state' command is executed.
+02:26:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:26:08 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+02:26:08 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:26:16 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+02:26:16 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+02:26:16 INFO  : 'stop' command is executed.
+02:26:17 INFO  : 'ps7_init' command is executed.
+02:26:17 INFO  : 'ps7_post_config' command is executed.
+02:26:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:26:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+02:26:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:26:19 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:26:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+02:26:19 INFO  : Memory regions updated for context APU
+02:26:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:26:19 INFO  : 'con' command is executed.
+02:26:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+02:27:58 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 967 xsdb eval "disconnect tcfchan#16"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+18:54:36 INFO  : Launching XSDB server: xsdb -n -interactive /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/temp_xsdb_launch_script.tcl
+18:54:40 INFO  : XSDB server has started successfully.
+18:54:42 INFO  : Processing command line option -hwspec /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf.
+18:54:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:39:52 INFO  : Launching XSDB server: xsdb -n -interactive /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/temp_xsdb_launch_script.tcl
+23:39:55 INFO  : XSDB server has started successfully.
+23:39:56 INFO  : Processing command line option -hwspec /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf.
+23:39:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:40:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1509428269000,  Project:1509172262000
+23:40:06 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf.
+23:40:06 INFO  : Copied contents of /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+23:40:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:40:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-64b5c055cb5f45c498d88b781f64097a-rtkit-daemon.service-7gUblL"
+
+23:40:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-f41d58cf20634a47a996d8efd13adcc4-rtkit-daemon.service-eiUiMr"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-64b5c055cb5f45c498d88b781f64097a-colord.service-7pUGQr"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-4d4d06c7861146a3910cb6e991740fc0-colord.service-3CgXjK"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-f41d58cf20634a47a996d8efd13adcc4-cups.service-rzvR4G"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-4d4d06c7861146a3910cb6e991740fc0-rtkit-daemon.service-BS9UFh"
+
+23:40:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-4d4d06c7861146a3910cb6e991740fc0-cups.service-XjvSdL"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-64b5c055cb5f45c498d88b781f64097a-ntpd.service-Bpt0vE"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-64b5c055cb5f45c498d88b781f64097a-cups.service-C0HJWN"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-private-f41d58cf20634a47a996d8efd13adcc4-colord.service-2vpCcV"
+
+23:40:34 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+23:40:36 ERROR : Error updating BSP project MSS files.
+23:40:36 INFO  : Updating hardware inferred compiler options for MPL.
+23:40:38 INFO  : Clearing existing target manager status.
+23:41:23 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+23:41:23 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+23:41:23 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+23:41:24 INFO  : Unable to read in MSS file /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL_bsp/system.mss : null
+23:41:24 ERROR : Failed to closesw "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL_bsp/system.mss"
+Reason: Cannot close sw design '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+23:41:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:41:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+23:41:43 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:41:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+23:41:55 INFO  : 'fpga -state' command is executed.
+23:41:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:41:55 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+23:41:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:41:56 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+23:41:56 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:41:56 INFO  : 'stop' command is executed.
+23:41:57 INFO  : 'ps7_init' command is executed.
+23:41:57 INFO  : 'ps7_post_config' command is executed.
+23:41:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:41:58 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+23:41:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:41:58 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:41:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+23:41:59 INFO  : Memory regions updated for context APU
+23:41:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:41:59 INFO  : 'con' command is executed.
+23:41:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+23:42:13 INFO  : Launching XSDB server: xsdb -n -interactive /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/temp_xsdb_launch_script.tcl
+23:42:14 INFO  : XSDB server has started successfully.
+23:42:14 WARN  : channel "tcfchan#1" closed
+23:42:15 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:42:42 INFO  : Launching XSDB server: xsdb -n -interactive /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/temp_xsdb_launch_script.tcl
+23:42:43 INFO  : XSDB server has started successfully.
+23:42:44 INFO  : Processing command line option -hwspec /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper.hdf.
+23:42:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:43:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:43:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+23:43:47 INFO  : FPGA configured successfully with bitstream "/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:43:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+23:43:57 INFO  : 'fpga -state' command is executed.
+23:43:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:43:57 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+23:43:58 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:43:58 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+23:43:58 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:43:58 INFO  : 'stop' command is executed.
+23:43:59 INFO  : 'ps7_init' command is executed.
+23:44:00 INFO  : 'ps7_post_config' command is executed.
+23:44:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:44:00 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+23:44:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:44:00 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:44:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+23:44:01 INFO  : Memory regions updated for context APU
+23:44:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:44:01 INFO  : 'con' command is executed.
+23:44:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+23:44:59 INFO  : Disconnected from the channel tcfchan#1.
+23:44:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66" && level==0} -index 1' command is executed.
+23:44:59 INFO  : 'fpga -state' command is executed.
+23:45:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:45:00 INFO  : Sourcing of '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+23:45:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:45:09 INFO  : Hardware design information is loaded from '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+23:45:09 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0' command is executed.
+23:45:10 INFO  : 'stop' command is executed.
+23:45:11 INFO  : 'ps7_init' command is executed.
+23:45:11 INFO  : 'ps7_post_config' command is executed.
+23:45:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:45:11 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+23:45:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:45:12 INFO  : The application '/home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:45:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+loadhw /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+dow /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.sdk/MPL/Debug/MPL.elf
+----------------End of Script----------------
+
+23:45:12 INFO  : Memory regions updated for context APU
+23:45:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:45:12 INFO  : 'con' command is executed.
+23:45:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS3 210299A57C66"} -index 0
+con
+----------------End of Script----------------
+
+23:45:53 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 126 xsdb eval "disconnect tcfchan#2"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Communication channel is closed by remote peer
+	at org.eclipse.tcf.core.AbstractChannel$1$2.run(AbstractChannel.java:305)
+	... 2 more

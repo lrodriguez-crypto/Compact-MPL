@@ -1,0 +1,176 @@
+import java.math.BigInteger;
+import java.util.Random;
+
+
+public class MontgomeryDifSizes {
+	
+	//Funciona bien, no modificar
+	//Algoritmo de Walter Original
+	public BigInteger montWalter(BigInteger X, BigInteger Y, BigInteger M, int numBits, int k, BigInteger Mprima) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(k);
+		BigInteger qi = new BigInteger("0");		
+		int n = numBits/k;
+		
+		BigInteger X0 = BIUtil.getD(X, 0, k);
+		BigInteger A0, Yi, XY, qiM;
+		
+		for (int i = 0; i < n; i++) {
+			A0 = BIUtil.getD(A, 0, k);
+			Yi = BIUtil.getD(Y, i, k);
+			
+			qi = (A0.add( X0.multiply( Yi ) ).multiply(Mprima)).mod(B);
+			
+			XY = X.multiply(Yi);
+			qiM = qi.multiply(M);
+			A = (A.add( XY ).add( qiM )).divide(B);		
+		}		
+		return A;
+	}
+		
+	//Funciona bien, no modificar diferente tama;os de digitos yk < xk
+	public BigInteger montWalterYk1(BigInteger X, BigInteger Y, BigInteger M, int numBits, int yk, int xk, BigInteger Mprima){
+				
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");		
+		int n = numBits/yk;
+		
+		BigInteger X0 = BIUtil.getD(X, 0, xk);
+		BigInteger A0, Yi, XYi, qiM;
+		
+		for (int i = 0; i < n; i++) {
+			A0 = BIUtil.getD(A, 0, xk);
+			Yi = BIUtil.getD(Y, i, yk);
+			
+			qi = (A0.add( X0.multiply( Yi ) ).multiply(Mprima)).mod(B);
+			
+			XYi = X.multiply(Yi);
+			qiM = qi.multiply(M);
+			A = (A.add( XYi ).add( qiM )).divide(B);
+		}		
+		return A;
+	}
+	
+	
+	//Funciona distintos tamaños de digito xk > yk (no modificar)
+	public BigInteger montCompact(BigInteger X, BigInteger Y, BigInteger M, BigInteger Mprima, int numBits, int xk, int yk) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");
+		BigInteger c;		
+		
+		int yn = numBits/yk; // k1=16
+		int xn = numBits/xk; // k2=32
+		 
+		for(int i = 0; i < yn ; i++){
+			c = new BigInteger("0");			
+			for (int j = 0; j < xn; j++) {
+				
+				//Aj + xj * yi
+				BigInteger sj = BIUtil.getD(A, j, xk).add( BIUtil.getD(X, j, xk).multiply(BIUtil.getD(Y, i, yk) ));
+				if (j == 0){ 
+					qi = BIUtil.getD( sj.multiply(Mprima), 0 , yk );
+				}
+				
+				//qi x M
+				BigInteger rj = qi.multiply(BIUtil.getD(M, j, xk));				
+
+				//sj + ri + c // C es elcarry anterior				
+				BigInteger t6j = sj.add(rj.add(c));	// {c+1,t6j} = sj + rj + cj			
+				c = t6j.shiftRight(xk);				
+
+				A = BIUtil.setD(A, j, xk, t6j);
+				
+				System.out.println("A --> " + A.toString(16)); 
+			}			
+						
+			A = A.shiftRight(yk);
+			A = BIUtil.setD(A, yn - 1, yk, c);
+			
+			System.out.println("A externo --> " + A.toString(16));
+		}
+		return A;
+	}	
+	
+	
+	
+	public BigInteger montCompactNoPow2(BigInteger X, BigInteger Y, BigInteger M, BigInteger Mprima, int numBits, int xk, int yk) {
+		BigInteger A = new BigInteger("0");
+		BigInteger B = new BigInteger("2").pow(yk);
+		BigInteger qi = new BigInteger("0");
+		BigInteger c;		
+		
+		int yn = numBits/yk; // k1=16
+		int xn = (int)Math.ceil( (double)numBits/(double)xk ); // k2= ejemplo con 48
+		 
+		System.out.println("numBits/xn = " + numBits + "/" + xk);
+		System.out.println("xn -> " + xn);
+		
+		int ultimoPorRecorrer = (numBits - (numBits/xk) * xk);		
+		System.out.println("UltimoRecorrer -> " + ultimoPorRecorrer );
+		
+		BigInteger t6j = null;
+		
+		for(int i = 0; i < yn ; i++){
+			c = new BigInteger("0");			
+			for (int j = 0; j < xn; j++) {
+				
+				//Aj + xj * yi
+				BigInteger sj = BIUtil.getD(A, j, xk).add( BIUtil.getD(X, j, xk).multiply(BIUtil.getD(Y, i, yk) ));
+				if (j == 0){ 
+					qi = BIUtil.getD( sj.multiply(Mprima), 0 , yk );
+					System.out.println("qi -> " + qi.toString(16));
+				}
+				
+				//qi x M
+				BigInteger rj = qi.multiply(BIUtil.getD(M, j, xk));				
+
+				//sj + ri + c // C es elcarry anterior				
+				t6j = sj.add(rj.add(c));	// {c+1,t6j} = sj + rj + cj			
+				c = t6j.shiftRight(xk);				
+				
+				A = BIUtil.setD(A, j, xk, t6j);
+				
+				
+				System.out.println("A --------------------> " );
+				for (int k = 0; k < numBits/xk ; k++) {
+					System.out.println( BIUtil.getD(A, numBits/xk - k - 1, xk).toString(16) );
+				}
+			}			
+			
+			c = ultimoPorRecorrer == 0 ? t6j.shiftRight(xk) : t6j.shiftRight(ultimoPorRecorrer);
+			
+			A = A.shiftRight(yk);
+			A = BIUtil.setD(A, yn - 1, yk, c);
+			
+			System.out.println("Externo -> " + A.toString(16));
+		}
+		return A;
+	}	
+	
+	
+	
+	public static void main(String[] args) {
+		BigInteger P = new BigInteger("6e79434fd91645c886aa3169c908791865815db7fb2104ac291c321351c14fbaf746f25c920bfca40c808b0c4cbfbf8f6c2fd11a2abfda32b0d8758135775a552e70620f92648e4707d5c4bcbe77c01a8f9bbe410dc168338cb4cb1d457aeee35e144098393aa78a8776e06bb7152560eab8ce7e4a985b41c8695a64f3805605",16);
+		BigInteger X = new BigInteger("29df4a5222a76d0c2a046902131ea045d32593bf6ab39c0090a8872bd4f623f5f40bd541bfe1d5b2a66fa0a40d2632f299937e8e1942ba2673b3e0c459bc250b9316ccbf2f571c7407bf7dbfe5922740399974950d839f6ab072ce177f8ce2946bd9387c37a9f402ede9d00a81e5efe4b860ddc20034fa611660c205c209bb0f",16);
+		BigInteger Y = new BigInteger("18e75f311ce8a8459d7c39b2298c0f7a3bccfa6142ac740cbe9b6d95d4732066dfe9f62997e0954034503d7ea784fa332d5dc8fd555e3de4fe4bfe44f7daebc03eded23c5b911a29e89bcabc093a3ae0a1aa3ecddc08e55d558c845bff1f01503fc1f56a3a18ea38352d38f857a51cd8b321322ffd533f639b02a6014aa6f5ef",16);
+
+		MontgomeryDifSizes alg5 = new MontgomeryDifSizes();
+		int xk = 32;
+		int yk = 32;		
+		int size = 1024;
+		
+		BigInteger Mprima = MontgomeryUtil.calcularMprima(P, yk); // new BigInteger("f933", 16); // -- k = 16
+		
+		MontgomeryUtil.printData(X, Y, P, yk, xk, size);
+		System.exit(0);
+		
+		System.out.println("MontCompact -> "	+ alg5.montCompactNoPow2(X, Y, P, Mprima, size, xk, yk).toString(16));
+		
+		System.out.println("X -> " + X.toString(16));
+		System.out.println("Y -> " + Y.toString(16));
+		System.out.println("P -> " + P.toString(16));
+		System.out.println("Mprima -> " + Mprima.toString(16));		
+	}
+}

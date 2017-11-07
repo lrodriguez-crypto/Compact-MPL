@@ -1,0 +1,3172 @@
+01:38:34 **** Build of project MPL_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/MPL_v1_0/src
+make -C ps7_cortexa9_0/libsrc/MPL_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/MPL_v1_0/src
+make -C ps7_cortexa9_0/libsrc/MPL_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling MPL...
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+01:38:51 **** Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22964	   1152	  22580	  46696	   b668	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:39:22 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"helloworld.d" -MT"helloworld.o" -o "helloworld.o" "../helloworld.c"
+../helloworld.c:49:22: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+                      ^
+compilation terminated.
+make: *** [helloworld.o] Error 1
+01:39:40 **** Clean-only build of configuration Debug for project MPL ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./helloworld.o  ./src/helloworld.d ./src/platform.d  ./helloworld.d  MPL.elf.size  MPL.elf
+ 
+01:39:40 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+make: *** No rule to make target `helloworld.o', needed by `MPL.elf'.  Stop.
+01:40:15 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+make: *** No rule to make target `helloworld.o', needed by `MPL.elf'.  Stop.
+01:43:20 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+make: *** No rule to make target `helloworld.o', needed by `MPL.elf'.  Stop.
+01:44:41 **** Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22964	   1152	  22580	  46696	   b668	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:45:03 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:45:17 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:46:07 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:46:30 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27976	   1152	  22580	  51708	   c9fc	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:47:50 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:48:24 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27976	   1152	  22580	  51708	   c9fc	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:49:02 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27976	   1152	  22580	  51708	   c9fc	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:49:30 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28040	   1152	  22580	  51772	   ca3c	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:49:55 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:53:43 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:79:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:99:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28068	   1152	  22580	  51800	   ca58	MPL.elf
+Finished building: MPL.elf.size
+ 
+01:54:01 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+01:57:18 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int[] x, int[] exp, int []P, int[uno], int pPrima){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:82:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:102:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+make: *** [src/helloworld.o] Error 1
+01:57:59 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int pPrima, int[] x, int[] exp, int []P, int[uno]){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:58:19 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int pPrima, int x[], int exp[], int P[], int uno[]){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:58:38 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int pPrima, int[] x){//[], int exp[], int P[], int uno[]){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:58:48 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:43: error: expected ‘;’, ‘,’ or ‘)’ before ‘x’
+ int* MPL_exponentiation(int pPrima, int[] x){//[], int exp[], int P[], int uno[]){
+                                           ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:10 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int pPrima){//[], int exp[], int P[], int uno[]){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:15 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:4: error: expected identifier or ‘(’ before ‘[’ token
+ int[] MPL_exponentiation(int pPrima){//[], int exp[], int P[], int uno[]){
+    ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:23 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:27 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:42 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:43: error: expected ‘;’, ‘,’ or ‘)’ before ‘x’
+ int* MPL_exponentiation(int pPrima, int[] x){//[], int exp[], int P[], int uno[]){
+                                           ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+01:59:52 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:66:43: error: expected ‘;’, ‘,’ or ‘)’ before ‘x’
+ int* MPL_exponentiation(int pPrima, int []x){//[], int exp[], int P[], int uno[]){
+                                           ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:00:03 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:00:12 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:76:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+In file included from ../src/helloworld.c:53:0:
+../src/helloworld.c:76:33: error: ‘pPrima’ undeclared (first use in this function)
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:76:33: note: each undeclared identifier is reported only once for each function it appears in
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:81:33: error: ‘x’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:82:31: error: ‘exp’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:83:33: error: ‘P’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+                                 ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c:84:31: error: ‘uno’ undeclared (first use in this function)
+   MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+                               ^
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:41:49: note: in definition of macro ‘MPL_mWriteReg’
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+                                                 ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:96:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:110:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:105:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:01:00 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘write_data’ [-Wimplicit-function-declaration]
+  write_data();
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:6: warning: conflicting types for ‘write_data’
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:68:2: note: previous implicit declaration of ‘write_data’ was here
+  write_data();
+  ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:78:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:98:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:117:5: error: too few arguments to function ‘write_data’
+     write_data();
+     ^
+../src/helloworld.c:72:6: note: declared here
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:112:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:111:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:110:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:107:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:01:23 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘write_data’ [-Wimplicit-function-declaration]
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:72:6: warning: conflicting types for ‘write_data’
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:68:2: note: previous implicit declaration of ‘write_data’ was here
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘write_data’:
+../src/helloworld.c:77:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:97:6: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+      xil_printf("R0[%d] -> %x\n\r", i, MPL_mReadReg(MPL, R));
+      ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:116:5: error: too few arguments to function ‘write_data’
+     write_data();
+     ^
+../src/helloworld.c:72:6: note: declared here
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:111:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:110:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:109:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:108:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:106:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:03:09 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:69:2: warning: implicit declaration of function ‘write_data’ [-Wimplicit-function-declaration]
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:75:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:81:6: warning: conflicting types for ‘write_data’
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:69:2: note: previous implicit declaration of ‘write_data’ was here
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘uno’ [-Wunused-variable]
+  int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+      ^
+../src/helloworld.c:119:6: warning: unused variable ‘P’ [-Wunused-variable]
+  int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+      ^
+../src/helloworld.c:118:6: warning: unused variable ‘exp’ [-Wunused-variable]
+  int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+      ^
+../src/helloworld.c:117:6: warning: unused variable ‘x’ [-Wunused-variable]
+  int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+      ^
+../src/helloworld.c:115:6: warning: unused variable ‘pPrima’ [-Wunused-variable]
+  int pPrima = 0x0e816385;
+      ^
+../src/helloworld.c:112:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28132	   1152	  22580	  51864	   ca98	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:04:04 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data’ [-Wimplicit-function-declaration]
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:83:6: warning: conflicting types for ‘write_data’
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data’ was here
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:114:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28196	   1152	  22580	  51928	   cad8	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:04:07 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data’ [-Wimplicit-function-declaration]
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:83:6: warning: conflicting types for ‘write_data’
+ void write_data(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data’ was here
+  write_data(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:114:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28196	   1152	  22580	  51928	   cad8	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:04:21 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:05:36 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:83:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:114:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28196	   1152	  22580	  51928	   cad8	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:06:37 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:80:6: note: in expansion of macro ‘R’
+  int R[32];
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:07:00 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:80:6: note: in expansion of macro ‘R’
+  int R[32];
+      ^
+../src/helloworld.c:83:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:85:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:07:25 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:80:6: note: in expansion of macro ‘R’
+  int R[32];
+      ^
+../src/helloworld.c:83:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:85:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:07:36 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:80:6: note: in expansion of macro ‘R’
+  int R[32];
+      ^
+../src/helloworld.c:84:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:07:42 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:83:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:85:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:07:56 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:81:6: note: in expansion of macro ‘R’
+  int R[];
+      ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:08:06 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:81:6: note: in expansion of macro ‘R’
+  int R[] = int[32];
+      ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:09:57 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:81:6: error: array size missing in ‘a’
+  int a[];
+      ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c:81:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a[];
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:10:07 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c:81:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a[32];
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:10:13 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+In file included from ../src/helloworld.c:53:0:
+../../MPL_bsp/ps7_cortexa9_0/include/MPL.h:18:37: error: expected identifier or ‘(’ before numeric constant
+ #define MPL_S00_AXI_SLV_REG8_OFFSET 32
+                                     ^
+../src/helloworld.c:64:30: note: in expansion of macro ‘MPL_S00_AXI_SLV_REG8_OFFSET’
+ #define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+                              ^
+../src/helloworld.c:81:6: note: in expansion of macro ‘R’
+  int R[32];
+      ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:10:22 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:84:4: error: subscripted value is neither array nor pointer nor vector
+   R[i] = MPL_mWriteReg(MPL, ADDR, i);
+    ^
+../src/helloworld.c:86:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c:81:6: warning: unused variable ‘r’ [-Wunused-variable]
+  int r[32];
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:89:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:10:39 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: return makes pointer from integer without a cast
+  return R;
+  ^
+../src/helloworld.c:80:6: warning: variable ‘r’ set but not used [-Wunused-but-set-variable]
+  int r[32];
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28260	   1152	  22580	  51992	   cb18	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:10:48 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28260	   1152	  22580	  51992	   cb18	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:11:16 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘print_values’:
+../src/helloworld.c:112:44: error: expected ‘;’ before ‘)’ token
+      xil_printf("r[%d] -> %x\n\r", i, r[i]));
+                                            ^
+../src/helloworld.c:112:44: error: expected statement before ‘)’ token
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:130:5: error: too few arguments to function ‘print_values’
+     print_values();
+     ^
+../src/helloworld.c:105:6: note: declared here
+ void print_values(int r[]){
+      ^
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:11:24 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:130:5: error: too few arguments to function ‘print_values’
+     print_values();
+     ^
+../src/helloworld.c:105:6: note: declared here
+ void print_values(int r[]){
+      ^
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:11:47 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:129:4: error: assignment to expression with array type
+  r = MPL_exponentiation(pPrima, x, exp, P, uno);
+    ^
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:12:20 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:128:7: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+  int r* = (int *)malloc(32 * sizeof(int));
+       ^
+../src/helloworld.c:128:9: error: expected expression before ‘=’ token
+  int r* = (int *)malloc(32 * sizeof(int));
+         ^
+../src/helloworld.c:128:9: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../src/helloworld.c:128:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int r* = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:129:2: error: ‘r’ undeclared (first use in this function)
+  r = MPL_exponentiation(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:129:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:12:33 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:85:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:88:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:128:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:128:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31528	   2192	  22628	  56348	   dc1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:12:41 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:13:32 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c:84:2: warning: ‘return’ with a value, in function returning void
+  return r;
+  ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:127:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:127:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:128:6: error: too few arguments to function ‘MPL_exponentiation’
+  r = MPL_exponentiation(pPrima, x, exp, P, uno);
+      ^
+../src/helloworld.c:66:6: note: declared here
+ void MPL_exponentiation(int pPrima, int x[], int exp[], int P[], int uno[], int* r){
+      ^
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:13:42 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:85:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:125:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:125:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:126:6: error: too few arguments to function ‘MPL_exponentiation’
+  r = MPL_exponentiation(pPrima, x, exp, P, uno);
+      ^
+../src/helloworld.c:66:6: note: declared here
+ void MPL_exponentiation(int pPrima, int x[], int exp[], int P[], int uno[], int* r){
+      ^
+../src/helloworld.c:115:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+make: *** [src/helloworld.o] Error 1
+02:13:59 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:85:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:125:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:125:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:115:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31528	   2192	  22628	  56348	   dc1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:14:01 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:14:51 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:127:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:127:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31528	   2192	  22628	  56348	   dc1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:14:52 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:15:34 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:127:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:127:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31532	   2192	  22628	  56352	   dc20	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:16:03 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:127:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  int* r = (int *)malloc(32 * sizeof(int));
+  ^
+../src/helloworld.c:127:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+  int* r = (int *)malloc(32 * sizeof(int));
+                  ^
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31532	   2192	  22628	  56352	   dc20	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:16:13 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1152	  22580	  51996	   cb1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:16:16 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:16:37 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:68:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, RST, 1);
+  ^
+../src/helloworld.c:70:2: warning: implicit declaration of function ‘write_data_hw’ [-Wimplicit-function-declaration]
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c:77:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:87:6: warning: conflicting types for ‘write_data_hw’
+ void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+      ^
+../src/helloworld.c:70:2: note: previous implicit declaration of ‘write_data_hw’ was here
+  write_data_hw(pPrima, x, exp, P, uno);
+  ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:117:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1152	  22580	  51996	   cb1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:17:04 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:106:5: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+     MPL_mReadReg(MPL, DONE));
+     ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:120:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1152	  22580	  51996	   cb1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:17:29 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1152	  22580	  51996	   cb1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:17:34 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:19:14 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:119:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28264	   1152	  22580	  51996	   cb1c	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:19:20 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:20:03 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28256	   1152	  22580	  51988	   cb14	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:20:07 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+../src/helloworld.c: In function ‘main’:
+../src/helloworld.c:118:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i;
+      ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28256	   1152	  22580	  51988	   cb14	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:20:31 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28256	   1152	  22580	  51988	   cb14	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:20:51 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28260	   1152	  22580	  51992	   cb18	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:22:11 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:22:56 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28288	   1152	  22580	  52020	   cb34	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:23:27 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+02:26:04 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28288	   1152	  22580	  52020	   cb34	MPL.elf
+Finished building: MPL.elf.size
+ 
+02:26:05 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+23:40:06 **** Build of project MPL_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/MPL_v1_0/src
+make -C ps7_cortexa9_0/libsrc/MPL_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_2/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_7/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_4/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/MPL_v1_0/src
+make -C ps7_cortexa9_0/libsrc/MPL_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling MPL...
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+23:40:26 **** Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28288	   1152	  22580	  52020	   cb34	MPL.elf
+Finished building: MPL.elf.size
+ 
+23:41:52 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+23:43:38 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:105:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28288	   1152	  22580	  52020	   cb34	MPL.elf
+Finished building: MPL.elf.size
+ 
+23:43:54 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+23:44:51 **** Auto Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MPL_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function ‘write_data_hw’:
+../src/helloworld.c:72:2: warning: implicit declaration of function ‘Xil_Out32’ [-Wimplicit-function-declaration]
+  MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+  ^
+../src/helloworld.c: In function ‘MPL_exponentiation’:
+../src/helloworld.c:106:3: warning: implicit declaration of function ‘Xil_In32’ [-Wimplicit-function-declaration]
+   xil_printf("Corriendo (%d), done(%d)\n\r", i++, done = MPL_mReadReg(MPL, DONE));
+   ^
+Finished building: ../src/helloworld.c
+ 
+Building target: MPL.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MPL_bsp/ps7_cortexa9_0/lib -o "MPL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MPL.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size MPL.elf  |tee "MPL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28288	   1152	  22580	  52020	   cb34	MPL.elf
+Finished building: MPL.elf.size
+ 
+23:44:56 **** Incremental Build of configuration Debug for project MPL ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.

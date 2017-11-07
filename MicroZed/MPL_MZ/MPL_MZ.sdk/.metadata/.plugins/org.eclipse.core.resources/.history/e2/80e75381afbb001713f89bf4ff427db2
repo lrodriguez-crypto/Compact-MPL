@@ -1,0 +1,136 @@
+/******************************************************************************
+*
+* Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* Use of the Software is limited solely to applications:
+* (a) running on a Xilinx device, or
+* (b) that interact with a Xilinx device through a bus or interconnect.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* Except as contained in this notice, the name of the Xilinx shall not be used
+* in advertising or otherwise to promote the sale, use or other dealings in
+* this Software without prior written authorization from Xilinx.
+*
+******************************************************************************/
+
+/*
+ * helloworld.c: simple test application
+ *
+ * This application configures UART 16550 to baud rate 9600.
+ * PS7 UART (Zynq) is not initialized by this application, since
+ * bootrom/bsp configures it to baud rate 115200
+ *
+ * ------------------------------------------------
+ * | UART TYPE   BAUD RATE                        |
+ * ------------------------------------------------
+ *   uartns550   9600
+ *   uartlite    Configurable only in HW design
+ *   ps7_uart    115200 (configured by bootrom/bsp)
+ */
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+
+#include "xparameters.h"
+#include "MPL.h"
+
+#define   MPL                XPAR_MPL_0_S00_AXI_BASEADDR
+#define   X_REG				 MPL_S00_AXI_SLV_REG0_OFFSET
+#define   EXP_REG            MPL_S00_AXI_SLV_REG1_OFFSET
+#define   P_REG              MPL_S00_AXI_SLV_REG2_OFFSET
+#define   UNO_REG            MPL_S00_AXI_SLV_REG3_OFFSET
+#define   ADDR               MPL_S00_AXI_SLV_REG4_OFFSET
+#define   PPRIMA_REG         MPL_S00_AXI_SLV_REG5_OFFSET
+#define   RST                MPL_S00_AXI_SLV_REG6_OFFSET
+#define   DONE               MPL_S00_AXI_SLV_REG7_OFFSET
+#define   R                  MPL_S00_AXI_SLV_REG8_OFFSET
+
+int* MPL_exponentiation(int pPrima, int x[], int exp[], int P[], int uno[]){
+
+	MPL_mWriteReg(MPL, RST, 1);
+
+	write_data_hw(pPrima, x, exp, P, uno);
+
+	MPL_mWriteReg(MPL, RST, 0);
+
+	int i = 0;
+	do {
+		xil_printf("Corriendo (%d), done(%d)\n\r", i++,
+				MPL_mReadReg(MPL, DONE));
+	} while (MPL_mReadReg(MPL, DONE) == 0);
+
+	int r[32];
+
+	for (i = 0; i < 32; ++i)
+		r[i] = MPL_mWriteReg(MPL, ADDR, i);
+
+	return r;
+}
+
+void write_data_hw(int pPrima, int x[], int exp[], int P[], int uno[]){
+
+	xil_printf("Escribiendo datos en MPL \n\r");
+	xil_printf("************************ \n\r");
+
+	MPL_mWriteReg(MPL, PPRIMA_REG, pPrima);
+
+	int i;
+	for (i = 0; i < 32; ++i) {
+		MPL_mWriteReg(MPL, ADDR, i);
+		MPL_mWriteReg(MPL, X_REG  ,   x[31-i]);
+		MPL_mWriteReg(MPL, EXP_REG, exp[31-i]);
+		MPL_mWriteReg(MPL, P_REG  ,   P[31-i]);
+		MPL_mWriteReg(MPL, UNO_REG, uno[31-i]);
+	}
+}
+
+void print_values(int r[]){
+
+	xil_printf("Leyendo datos de MPL     \n\r");
+	xil_printf("************************ \n\r");
+
+	int i;
+    for (i = 0; i < 32; ++i) {
+    	xil_printf("r[%d] -> %x\n\r", i, r[i]);
+    }
+}
+
+int main(){
+
+	int i;
+	init_platform();
+
+	int pPrima = 0x0e816385;
+
+	int x[]   = {0x110f84bc, 0xd5af6897, 0x6160cbad, 0x734df594, 0xb5072fc1, 0x727870da, 0xc1923767, 0x9789b5a1, 0xd3c97b20, 0x17ae1a02, 0x927ca5e9, 0x5a5a739d, 0x01351f9c, 0xbd67c7cf, 0x3502996f, 0xa2873f01, 0x41b41d70, 0x0b56bd67, 0x6c57b53a, 0xb2e95167, 0xf940a306, 0xca440385, 0x4e93da15, 0xd16a1b5c, 0x902249b7, 0xa09c7fd2, 0x4c947f15, 0x4d01c107, 0x7b873298, 0x09f88597, 0x8782b84c, 0x62604fe2};
+	int exp[] = {0x9f2c3e85, 0xd65eb004, 0x8a01bead, 0x9db882c7, 0x2ff2b63f, 0x49d50c37, 0x64db2ec5, 0xfd094149, 0x1a50218f, 0x9a8cb972, 0x5e354e32, 0xb2afdc38, 0xd1aadbf7, 0xb6fdec54, 0x6e347f23, 0x851cf047, 0x915b8d14, 0xbfaae1f2, 0x99401911, 0x8d6a31e9, 0xafabe36c, 0xc7998a9b, 0x61623c82, 0x8d5dc4a9, 0x38b1d217, 0xda37cee3, 0x7c8389e9, 0x9aa7bf73, 0xb9e02e49, 0x41e85d31, 0xc6865178, 0x0154b823};
+	int P[]   = {0x2c525503, 0x1376b8ea, 0x2df1d33e, 0xe3c56e59, 0xa4954015, 0x51039cfa, 0x5d1b9475, 0xc95031d5, 0x6468e137, 0xa7b9a66d, 0xbd3f283f, 0x55afca57, 0x244bc252, 0x0d73cbd0, 0x675899b8, 0x9f542161, 0x226148f1, 0xaadbe1a1, 0xa3b7d05b, 0x18002474, 0x41b2e6a7, 0xf257dce9, 0x69f6b087, 0xbbe361c9, 0x2d272921, 0xf6b72d52, 0x23c7f024, 0x8379425e, 0xc3a33021, 0xf64b862c, 0xb6b08922, 0x1cbce2b3};
+	int uno[] = {0x226456f0, 0x9eae636d, 0x1a46dfc5, 0x8d24d83f, 0xc915bf95, 0x6aedef1c, 0x2e7619b3, 0x116f06d5, 0x09f399e9, 0xb95fbfdb, 0x4dc436c3, 0x53910c4c, 0x4a853465, 0xbcbd04ed, 0xfb44ff64, 0xe35b591a, 0x54199347, 0xa9b497d7, 0xcd68ee38, 0x87ff49ba, 0xb7817eb8, 0x4448af70, 0xee2e8d59, 0x548f1712, 0x1e3c3256, 0x2e6c1d65, 0x4d184f49, 0x6ea1b426, 0x2dd00f56, 0x30866120, 0x6e8d5255, 0x704f9281};
+
+	int* r = (int *)malloc(32 * sizeof(int));
+	r = MPL_exponentiation(pPrima, x, exp, P, uno);
+
+    print_values(r);
+
+    xil_printf("Te quedo muy chingon!!!\n\r");
+    cleanup_platform();
+    return 0;
+}

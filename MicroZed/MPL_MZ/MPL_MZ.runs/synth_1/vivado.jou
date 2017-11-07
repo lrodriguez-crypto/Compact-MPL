@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Oct 30 23:31:55 2017
+# Process ID: 8364
+# Current directory: /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.runs/synth_1
+# Command line: vivado -log design_1_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.runs/synth_1/design_1_wrapper.vds
+# Journal file: /home/sr_x/Desktop/Basura/MicroZed/MPL_MZ/MPL_MZ.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

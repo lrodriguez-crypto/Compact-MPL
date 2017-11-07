@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Oct 31 00:46:10 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="54aae258e45d4c658bf3a2e44bac2d63" type="ProjectID"/>
+<property name="ProjectIteration" value="3" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CreateTopHDL" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="3" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="1" type="JavaHandler"/>
+<property name="NewExportHardware" value="2" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="4" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="5" type="JavaHandler"/>
+<property name="RegenerateRSBLayout" value="4" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="2" type="JavaHandler"/>
+<property name="ReportUtilization" value="7" type="JavaHandler"/>
+<property name="RunBitgen" value="2" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunPowerEstimation" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="1" type="JavaHandler"/>
+<property name="ShowPowerEstimation" value="1" type="JavaHandler"/>
+<property name="ShowView" value="4" type="JavaHandler"/>
+<property name="ValidateRSBDesign" value="1" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, Data (32 address bits : 0x40000000 [ 1G ]" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, Launch SDK" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_REPORTS_WINDOW, View Reports" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, Clock Utilization Report ; Mon Oct 30 23:37:29 CST 2017 ; 14045 ; , 32, Clock Utilization Report, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, Power Report ; Mon Oct 30 23:37:28 CST 2017 ; 11768 ; , 28, Power Report, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, Utilization Report ; Mon Oct 30 23:36:45 CST 2017 ; 9456 ; , 15" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, Utilization Report ; Mon Oct 30 23:36:45 CST 2017 ; 9456 ; , 15, Utilization Report, 0, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, Utilization Report ; Mon Oct 30 23:36:45 CST 2017 ; 9456 ; , 15, Utilization Report, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Edit Timing Constraints], 24, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Report Power], 32, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Report Timing Summary], 25, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Report Utilization], 30, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Implemented Design, Report Utilization], 31, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Implementation, Open Implemented Design, Report Utilization], 30, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_IMPORT, Import" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, Include bitstream, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Power Supply], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Summary], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details, Clocks], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details, Hierarchical], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details, PS7], 13, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details, Signals], 6, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details], 3, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, [Report Contents, Utilization Details], 3, true, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED, PAResourceOtoP.ProjectSummaryUtilizationPanel_TABLE, Table, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, BRAM ; 5 ; 60 ; 8.333334, 3, 60, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, BUFG ; 1 ; 32 ; 3.125, 5, 32, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, DSP ; 22 ; 80 ; 27.5, 4, 80, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, FF ; 1249 ; 35200 ; 3.5482955, 2, 35200, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, LUT ; 1295 ; 17600 ; 7.357954, 0, 17600, 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_TABLE, LUTRAM ; 68 ; 6000 ; 1.1333333, 1, 6000, 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectTab_CLOSE_DESIGN, Close Design" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_SAVE, Save" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy" value="11" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, OK" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="7" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="3" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 121, 83" value="1" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 258, 142" value="1" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 398, 81" value="1" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 474, 121" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 17, 202" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 29, 294" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 323, 85" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 42, 81" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 61, 117" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 64, 112, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Utilization Report - impl_1, 64, 113" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="38" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="30" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
