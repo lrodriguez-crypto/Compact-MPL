@@ -16,8 +16,8 @@
 	Command:
 
 		ant -p			(To shows options)
-		ant resolve		(To download ant install required libraries)
-		ant				(To compile ant run the project)
+		ant resolve		(To download and install required libraries)
+		ant				(To compile and run the project)
 
 
 	It is posible to edit the file log4j2.xml to change logs level to `debug` ot `trace` to show verbose information:
