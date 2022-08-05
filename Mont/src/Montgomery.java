@@ -1,13 +1,14 @@
 import java.math.BigInteger;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 import util.BIUtil;
 import util.MontgomeryUtil;
 
 public class Montgomery {
 	
-	private static Logger log = Logger.getLogger(Montgomery.class);
+	private static Logger log = LogManager.getLogger(Montgomery.class);
 
 	// Walter's Algorithm
 	public BigInteger montWalter(BigInteger X, BigInteger Y, BigInteger M, int numBits, int k, BigInteger Mprima) {
@@ -59,11 +60,11 @@ public class Montgomery {
 				if (j > 0)
 					A = BIUtil.setDigit(A, j - 1, k, t6j);
 
-				// System.out.println("A -> " + A.toString(16));
+				//log.trace("A -> " + A.toString(16));
 			}
 			A = BIUtil.setDigit(A, n - 1, k, c);
 
-			// System.out.println("End iteration A -> " + A.toString(16));
+			log.trace("End iteration A -> " + A.toString(16));
 		}
 		return A;
 	}
@@ -79,17 +80,20 @@ public class Montgomery {
 		
 		for(int i= exp.bitLength() - 1; i >= 0 ; --i){
 			if( exp.testBit(i) ){				
-				R0 = montWalter( R0 , R1 , p , size, k, pPrima); //R0 = montWalter( R0 , R1 , p , size, k, pPrima);  
-				R1 = montWalter( R1 , R1 , p , size, k, pPrima); 
+				R0 = montCompact( R0 , R1 , p , size, k, pPrima);
+				R1 = montCompact( R1 , R1 , p , size, k, pPrima); 
+				//R0 = montWalter( R0 , R1 , p , size, k, pPrima);
+				//R1 = montWalter( R1 , R1 , p , size, k, pPrima); 
 			}else{				
-				R1 = montWalter( R0 , R1 , p , size, k, pPrima); 
-				R0 = montWalter( R0 , R0 , p , size, k, pPrima); 
+				R1 = montCompact( R0 , R1 , p , size, k, pPrima); 
+				R0 = montCompact( R0 , R0 , p , size, k, pPrima); 
+				//R1 = montWalter( R0 , R1 , p , size, k, pPrima); 
+				//R0 = montWalter( R0 , R0 , p , size, k, pPrima); 
 			}
-//			log.info("R0 [" + i + "]->  RO * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R0.toString(16));
-//			log.info("R1 [" + i + "]->  R1 * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R1.toString(16));
-//			log.info("------------------------------------------------------");
+			log.debug("R0 [" + i + "]->  RO * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R0.toString(16));
+			log.debug("R1 [" + i + "]->  R1 * " + (exp.testBit(i)? "R1 -> ":"R0 -> ") + R1.toString(16));
+			log.debug("------------------------------------------------------");
 		}			
 		return R0;
 	}
 }
-

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="INFO">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<!--<PatternLayout pattern="%d{HH:mm:ss.SSS} %t %-5level %logger{36} - %msg%n"/>-->
+			<PatternLayout pattern="%highlight{[%level{length=1}] %logger{36}: %msg%n}"/>
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console"/>
+		</Root>
+	</Loggers>
+</Configuration>
+
+<!-- 
+	levels:
+	•ALL(lowest): This level has the lowest possible rank and prints all logging information.
+	•TRACE.
+	•DEBUG: This level prints debugging information helpful in the development stage.
+	•INFO: This level prints informational messages that help determine the flow of control within an application.
+	•WARN: This level prints information related to some faulty and unexpected behavior of the system that needs immediate attention to forestall application malfunction.
+	•ERROR: This level prints error-related messages.
+	•FATAL: This level prints system-critical information about problems that are causing the application to crash.
+	•OFF(highest): This is the highest level, and it turns off printing for all the logging information
+-->
